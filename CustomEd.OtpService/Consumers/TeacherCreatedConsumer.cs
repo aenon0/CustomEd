@@ -22,38 +22,29 @@ public class TeacherCreatedConsumer: IConsumer<TeacherCreatedEvent>
 
     public async Task Consume(ConsumeContext<TeacherCreatedEvent> context)
     {
-        try
-        {
-            var message = context.Message;
-            var item = await _repository.ExistsByEmailAddress(message.Email);
-            string otpCode = new OtpGenerationService().GenerateOTP();
-
-            if (item == true)
-            {
-                var otpItem = await _repository.GetByEmailAddress(message.Email);
-                otpItem.OtpCode = otpCode;
-                await _repository.Update(otpItem);
-                return;
-            }
-
+        var message = context.Message;
+        var item = await _repository.ExistsByEmailAddress(message.Email);
+        string otpCode = new OtpGenerationService().GenerateOTP();
+        Console.WriteLine($"bool: {item}");
+        if (item == true){
+            var otpItem = await _repository.GetByEmailAddress(message.Email);
+            otpItem.OtpCode = otpCode;
+            await _repository.Update(otpItem);
             await _emailService.SendEmail(message.Email, otpCode);
-
-            await _repository.Add(new Otp
-            {
-                Id = ObjectId.GenerateNewId(),
-                EmailAddress = message.Email,
-                OtpCode = otpCode
-            });
-
-            await _publishEndpoint.Publish(new OtpGeneratedEvent
-            {
-                Email = message.Email,
-                OtpCode = otpCode
-            });
+            Console.WriteLine("sent the message");
+            return;
         }
-        catch (Exception ex)
+        Console.WriteLine("sent the message");
+        await _emailService.SendEmail(message.Email, otpCode);
+        await _repository.Add(new Otp{
+            Id = ObjectId.GenerateNewId(),
+           EmailAddress = message.Email,
+           OtpCode = otpCode
+        });
+        await _publishEndpoint.Publish(new OtpGeneratedEvent
         {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-        }
+            Email = message.Email,
+            OtpCode = otpCode
+        });
     }
 }

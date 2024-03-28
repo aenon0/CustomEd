@@ -22,17 +22,20 @@ public class UserCreatedConsumer : IConsumer<StudentCreatedEvent>
 
     public async Task Consume(ConsumeContext<StudentCreatedEvent> context)
     {
+        
         var message = context.Message;
         var item = await _repository.ExistsByEmailAddress(message.Email);
         string otpCode = new OtpGenerationService().GenerateOTP();
-
+        Console.WriteLine($"bool: {item}");
         if (item == true){
             var otpItem = await _repository.GetByEmailAddress(message.Email);
             otpItem.OtpCode = otpCode;
             await _repository.Update(otpItem);
+            await _emailService.SendEmail(message.Email, otpCode);
+            Console.WriteLine("sent the message");
             return;
         }
-
+        Console.WriteLine("sent the message");
         await _emailService.SendEmail(message.Email, otpCode);
         await _repository.Add(new Otp{
             Id = ObjectId.GenerateNewId(),
@@ -44,5 +47,6 @@ public class UserCreatedConsumer : IConsumer<StudentCreatedEvent>
             Email = message.Email,
             OtpCode = otpCode
         });
+        
     }
 }

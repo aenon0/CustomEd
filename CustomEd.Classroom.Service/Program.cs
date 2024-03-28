@@ -16,7 +16,7 @@ builder.Services.AddPersistence<Classroom>("Classroom");
 builder.Services.AddPersistence<Teacher>("Teacher");
 builder.Services.AddPersistence<Student>("Student");
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddMassTransitWithRabbitMQ();
+builder.Services.AddMassTransitWithRabbitMq();
 builder.Services.AddAuth();
 builder.Services.AddSingleton<IJwtService, JwtService>();
 builder.Services.AddHttpContextAccessor();

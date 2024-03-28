@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XwCu/3wwhDPxa8uDtihY1nc8La3lwugHBmPDJ6B44v0=",
+  "Source": "CustomEd.Notification.Service",
+  "BasePath": "_content/CustomEd.Notification.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

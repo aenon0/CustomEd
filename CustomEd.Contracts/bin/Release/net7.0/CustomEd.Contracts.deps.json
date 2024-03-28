@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "CustomEd.Contracts/1.1.3": {
+      "CustomEd.Contracts/2.0.3": {
         "dependencies": {
-          "CustomEd.Shared": "1.0.4"
+          "CustomEd.Shared": "1.1.6"
         },
         "runtime": {
           "CustomEd.Contracts.dll": {}
@@ -33,10 +33,10 @@
           }
         }
       },
-      "CustomEd.Shared/1.0.4": {
+      "CustomEd.Shared/1.1.6": {
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
-          "MassTransit.RabbitMQ": "8.1.3",
+          "MassTransit.RabbitMQ": "8.1.2",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0",
@@ -45,8 +45,8 @@
         },
         "runtime": {
           "lib/net7.0/CustomEd.Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.1.6.0",
+            "fileVersion": "1.1.6.0"
           }
         }
       },
@@ -61,9 +61,9 @@
           }
         }
       },
-      "MassTransit/8.1.3": {
+      "MassTransit/8.1.2": {
         "dependencies": {
-          "MassTransit.Abstractions": "8.1.3",
+          "MassTransit.Abstractions": "8.1.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.1",
           "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
@@ -77,22 +77,22 @@
         },
         "runtime": {
           "lib/net7.0/MassTransit.dll": {
-            "assemblyVersion": "8.1.3.0",
-            "fileVersion": "8.1.3.0"
+            "assemblyVersion": "8.1.2.0",
+            "fileVersion": "8.1.2.0"
           }
         }
       },
-      "MassTransit.Abstractions/8.1.3": {
+      "MassTransit.Abstractions/8.1.2": {
         "runtime": {
           "lib/net7.0/MassTransit.Abstractions.dll": {
-            "assemblyVersion": "8.1.3.0",
-            "fileVersion": "8.1.3.0"
+            "assemblyVersion": "8.1.2.0",
+            "fileVersion": "8.1.2.0"
           }
         }
       },
       "MassTransit.AspNetCore/7.3.1": {
         "dependencies": {
-          "MassTransit": "8.1.3",
+          "MassTransit": "8.1.2",
           "MassTransit.Extensions.DependencyInjection": "7.3.1",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.1",
           "Microsoft.Extensions.Hosting.Abstractions": "7.0.0"
@@ -106,7 +106,7 @@
       },
       "MassTransit.Extensions.DependencyInjection/7.3.1": {
         "dependencies": {
-          "MassTransit": "8.1.3",
+          "MassTransit": "8.1.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
@@ -116,15 +116,15 @@
           }
         }
       },
-      "MassTransit.RabbitMQ/8.1.3": {
+      "MassTransit.RabbitMQ/8.1.2": {
         "dependencies": {
-          "MassTransit": "8.1.3",
-          "RabbitMQ.Client": "6.8.1"
+          "MassTransit": "8.1.2",
+          "RabbitMQ.Client": "6.6.0"
         },
         "runtime": {
           "lib/net7.0/MassTransit.RabbitMqTransport.dll": {
-            "assemblyVersion": "8.1.3.0",
-            "fileVersion": "8.1.3.0"
+            "assemblyVersion": "8.1.2.0",
+            "fileVersion": "8.1.2.0"
           }
         }
       },
@@ -378,7 +378,7 @@
           }
         }
       },
-      "RabbitMQ.Client/6.8.1": {
+      "RabbitMQ.Client/6.6.0": {
         "dependencies": {
           "System.Memory": "4.5.5",
           "System.Threading.Channels": "7.0.0"
@@ -386,7 +386,7 @@
         "runtime": {
           "lib/netstandard2.0/RabbitMQ.Client.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.8.1.0"
+            "fileVersion": "6.6.0.0"
           }
         }
       },
@@ -449,7 +449,7 @@
     }
   },
   "libraries": {
-    "CustomEd.Contracts/1.1.3": {
+    "CustomEd.Contracts/2.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -468,12 +468,12 @@
       "path": "awssdk.securitytoken/3.7.100.14",
       "hashPath": "awssdk.securitytoken.3.7.100.14.nupkg.sha512"
     },
-    "CustomEd.Shared/1.0.4": {
+    "CustomEd.Shared/1.1.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nTPj7bF1HJFJPbrCxawO2n9BX0mKhKt7mDuiKdeXuO1iXvhJETDcgIiEpgZT4aJuX+piPcbsz30dKOP80B3CXA==",
-      "path": "customed.shared/1.0.4",
-      "hashPath": "customed.shared.1.0.4.nupkg.sha512"
+      "sha512": "sha512-fKT4xPOs+sw7kEJI0HpBNpYEginWqgdljSke2KXebiZ8JSpRYUkR9i3e3Rz0Rp6tsi5QWi5mnMlJz2/s9tCAQA==",
+      "path": "customed.shared/1.1.6",
+      "hashPath": "customed.shared.1.1.6.nupkg.sha512"
     },
     "DnsClient/1.6.1": {
       "type": "package",
@@ -482,19 +482,19 @@
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
     },
-    "MassTransit/8.1.3": {
+    "MassTransit/8.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QI2FWDL1ivdI2CjTxseOFKK03QMay0iGLcWscgo306iIpWsQUbzHfKQnoCVPsM1dRhjhKo4PM+76SR9fLdeQhw==",
-      "path": "masstransit/8.1.3",
-      "hashPath": "masstransit.8.1.3.nupkg.sha512"
+      "sha512": "sha512-GsBT3KJti92sndrctr93+1TstCCFEQ0XxicFn41gXq0B0DPeHPzOWN/o5PYHbXXK+zmfGs9kNG5aoIBLB1yTjQ==",
+      "path": "masstransit/8.1.2",
+      "hashPath": "masstransit.8.1.2.nupkg.sha512"
     },
-    "MassTransit.Abstractions/8.1.3": {
+    "MassTransit.Abstractions/8.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+yLPlgtoo2qn2Q9pYYRQ+I3y9MOeUiGLa3XDRaMMCbP+JzBmK+TZF8H1LRju9wp+kARJdWWrYS0HNkcH178v+g==",
-      "path": "masstransit.abstractions/8.1.3",
-      "hashPath": "masstransit.abstractions.8.1.3.nupkg.sha512"
+      "sha512": "sha512-121mBA29VOIKtdNp+FyvNZj3BxUkHKLoGbGp3PwrUVJFwDupN3BOxRga1IbOSdNswicPXWt0k94QNcqEHDE0Yw==",
+      "path": "masstransit.abstractions/8.1.2",
+      "hashPath": "masstransit.abstractions.8.1.2.nupkg.sha512"
     },
     "MassTransit.AspNetCore/7.3.1": {
       "type": "package",
@@ -510,12 +510,12 @@
       "path": "masstransit.extensions.dependencyinjection/7.3.1",
       "hashPath": "masstransit.extensions.dependencyinjection.7.3.1.nupkg.sha512"
     },
-    "MassTransit.RabbitMQ/8.1.3": {
+    "MassTransit.RabbitMQ/8.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e/QtX2yzxGMmsUjMnRSgyBcMWBUU7QxSnZjGYgPpJHbhX0kry+xbDxDyioeD1RzdiUECCKNjsUQTwXtSJB24uw==",
-      "path": "masstransit.rabbitmq/8.1.3",
-      "hashPath": "masstransit.rabbitmq.8.1.3.nupkg.sha512"
+      "sha512": "sha512-E4newZ6a0gbT52Sk8kZBtMyMVRCpfF9k2kw2DLvuNpTMCgl/NzaikNGR5gluE272CS/w/1rUejnGKCHFwHNYEQ==",
+      "path": "masstransit.rabbitmq/8.1.2",
+      "hashPath": "masstransit.rabbitmq.8.1.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.14": {
       "type": "package",
@@ -685,12 +685,12 @@
       "path": "mongodb.libmongocrypt/1.8.2",
       "hashPath": "mongodb.libmongocrypt.1.8.2.nupkg.sha512"
     },
-    "RabbitMQ.Client/6.8.1": {
+    "RabbitMQ.Client/6.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
-      "path": "rabbitmq.client/6.8.1",
-      "hashPath": "rabbitmq.client.6.8.1.nupkg.sha512"
+      "sha512": "sha512-klht0KBLO7xs/uIn8uejq1VC5wJJ8dHJSm2GmFmJHWQnFzWK5YTNUta6IrnuzitR1T5psxIuqwdQqalbTLPtcA==",
+      "path": "rabbitmq.client/6.6.0",
+      "hashPath": "rabbitmq.client.6.6.0.nupkg.sha512"
     },
     "SharpCompress/0.30.1": {
       "type": "package",

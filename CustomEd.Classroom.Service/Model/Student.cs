@@ -4,7 +4,7 @@ namespace CustomEd.Classroom.Service.Model;
 
 public class Student: BaseEntity
 {
-    public string? StudentId {get; set;}
+    public string? StudentId {get; set;} //This should be removed
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
     public DateTime? DateOfBirth { get; set; }

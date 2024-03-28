@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj": {}
+    "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj": {}
   },
   "projects": {
-    "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj": {
+    "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
+        "projectUniqueName": "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
         "projectName": "CustomEd.Classroom.Service",
-        "projectPath": "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
-        "packagesPath": "/home/dirichletian/.nuget/packages/",
-        "outputPath": "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/obj/",
+        "projectPath": "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
+        "packagesPath": "/Users/henon/.nuget/packages/",
+        "outputPath": "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/dirichletian/.nuget/NuGet/NuGet.Config"
+          "/Users/henon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/home/dirichletian/.nuget/": {},
-          "/home/dirichletian/.nuget/NuGet": {},
-          "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/Packages/": {},
-          "/home/dirichletian/Documents/Microservices/campus-bulletin-board-api/Packages/": {},
-          "/home/dirichletian/Documents/Mobile/project/microservice/tutorial/7hrtut/packages/": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2/": {}
+          "/Users/henon/Documents/Projects/Microservices": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -88,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.117/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

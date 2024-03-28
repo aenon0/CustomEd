@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CustomEd.Notification.Service.props" />
+</Project>

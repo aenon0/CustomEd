@@ -22,3 +22,16 @@
 /home/dirichletian/Documents/Final year project/FlexEd/CustomEd.Contracts/bin/Debug/net7.0/CustomEd.Contracts.dll
 /home/dirichletian/Documents/Final year project/FlexEd/CustomEd.Contracts/bin/Debug/net7.0/CustomEd.Contracts.pdb
 /home/dirichletian/Documents/Final year project/FlexEd/CustomEd.Contracts/obj/Debug/net7.0/ref/CustomEd.Contracts.dll
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.csproj.AssemblyReference.cache
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.AssemblyInfoInputs.cache
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.AssemblyInfo.cs
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.csproj.CoreCompileInputs.cache
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.sourcelink.json
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.dll
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/refint/CustomEd.Contracts.dll
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/CustomEd.Contracts.pdb
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/bin/Debug/net7.0/CustomEd.Contracts.deps.json
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/bin/Debug/net7.0/CustomEd.Contracts.dll
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/bin/Debug/net7.0/CustomEd.Contracts.pdb
+/Users/henon/Documents/Projects/CustomEd/CustomEd.Contracts/obj/Debug/net7.0/ref/CustomEd.Contracts.dll

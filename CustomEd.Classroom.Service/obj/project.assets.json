@@ -72,7 +72,7 @@
           "lib/net7.0/CustomEd.Contracts.dll": {}
         }
       },
-      "CustomEd.Shared/1.1.4": {
+      "CustomEd.Shared/1.1.5": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -1098,7 +1098,7 @@
       ]
     },
     "CustomEd.Contracts/2.0.0": {
-      "sha512": "WDLDPvp0H5lbv/g6h3eRjI47Vf2MVqUbp+UB1R1Pqf1Td31V62OQyUIpG8nGHG8H6HkE3FS6N/9ytCtjs5AorA==",
+      "sha512": "1c0I5CSXCTQlYskJxAqrLSAPGQyInFNTGuBJAUtxBbnI22Vv0AY5CJgXMWTqGxaoT43Eqitmz9M7NYxnRg4Mng==",
       "type": "package",
       "path": "customed.contracts/2.0.0",
       "files": [
@@ -1108,13 +1108,13 @@
         "lib/net7.0/CustomEd.Contracts.dll"
       ]
     },
-    "CustomEd.Shared/1.1.4": {
-      "sha512": "CBE8RhSllLjM5az9odv3PX+hKyrpdK8f0mtbtFFJbF1gbPGrzwMbK4RwBV7IrSRPd9kk6jtXGn5ob1HOlgSAyQ==",
+    "CustomEd.Shared/1.1.5": {
+      "sha512": "H0Q1txXCb5XjdMacCBQY9Li1n5v2o91oczgl/v1YlrxxxbHsJfajrisvYwlqUHsc2DQs/HU/+ruxEeeO4f9WvA==",
       "type": "package",
-      "path": "customed.shared/1.1.4",
+      "path": "customed.shared/1.1.5",
       "files": [
         ".nupkg.metadata",
-        "customed.shared.1.1.4.nupkg.sha512",
+        "customed.shared.1.1.5.nupkg.sha512",
         "customed.shared.nuspec",
         "lib/net7.0/CustomEd.Shared.dll"
       ]
@@ -2910,31 +2910,26 @@
     ]
   },
   "packageFolders": {
-    "/home/dirichletian/.nuget/packages/": {}
+    "/Users/henon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
+      "projectUniqueName": "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
       "projectName": "CustomEd.Classroom.Service",
-      "projectPath": "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
-      "packagesPath": "/home/dirichletian/.nuget/packages/",
-      "outputPath": "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/CustomEd.Classroom.Service/obj/",
+      "projectPath": "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/CustomEd.Classroom.Service.csproj",
+      "packagesPath": "/Users/henon/.nuget/packages/",
+      "outputPath": "/Users/henon/Documents/Projects/CustomEd/CustomEd.Classroom.Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dirichletian/.nuget/NuGet/NuGet.Config"
+        "/Users/henon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/home/dirichletian/.nuget/": {},
-        "/home/dirichletian/.nuget/NuGet": {},
-        "/home/dirichletian/Documents/Final year project/Implementaion/FlexEd/Packages/": {},
-        "/home/dirichletian/Documents/Microservices/campus-bulletin-board-api/Packages/": {},
-        "/home/dirichletian/Documents/Mobile/project/microservice/tutorial/7hrtut/packages/": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2/": {}
+        "/Users/henon/Documents/Projects/Microservices": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -2996,8 +2991,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.117/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CustomEd.Classroom.Service depends on CustomEd.Shared (>= 1.1.4) but CustomEd.Shared 1.1.4 was not found. An approximate best match of CustomEd.Shared 1.1.5 was resolved.",
+      "libraryId": "CustomEd.Shared",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

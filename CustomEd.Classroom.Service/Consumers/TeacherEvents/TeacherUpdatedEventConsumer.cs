@@ -7,6 +7,7 @@ using CustomEd.User.Student.Events;
 
 namespace CustomEd.Classroom.Service.Consumers
 {
+    ///I think you forgot to replace student with teacher
     public class StudentUpdatedEventConsumer : IConsumer<StudentUpdatedEvent>
     {
         private readonly IGenericRepository<Student> _StudentRepository;
